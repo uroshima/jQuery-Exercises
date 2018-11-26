@@ -46,8 +46,8 @@ View.prototype.exercise3 = function () {
 View.prototype.exercise4 = function () {
   //Challenge: Write your first name in every other square.
   //Result: Your name appears in every other square.
-
   //your code here!
+  $(".square:nth-child(even)").text("uroshimaaa");
 };
 
 View.prototype.exercise5 = function () {
